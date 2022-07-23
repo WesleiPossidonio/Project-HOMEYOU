@@ -13,6 +13,11 @@ export const Container = styled.section`
     padding: 0;
     justify-content: center;
   }
+
+  @media screen and (max-width: 320px) {
+    padding: 10px;
+    margin-left: 15px;
+  }
 `
 
 export const ContainerItens = styled.div`
