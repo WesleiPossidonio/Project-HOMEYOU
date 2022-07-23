@@ -1,7 +1,7 @@
 <h1>🏠 Web Site HOMEYOU</h1>
 
 <h1 align="center">
-    <img width="100%" alt="WebSite-Art." src="./src/assets/Project-HomeYou.jpg" />
+    <img width="100%" alt="WebSite-Homeyou" src="./src/assets/Project-HomeYou.png" />
 </h1>
 
 ## 💻 Sobre o projeto
