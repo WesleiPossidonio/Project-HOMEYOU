@@ -21,7 +21,7 @@ export const SectionDesign = () => {
   return (
     <Container id="Design">
       <ContainerImage data-aos="fade-right">
-        <Image src={ImageDesign} />
+        <Image src={ImageDesign} alt="image design-minimalista" />
       </ContainerImage>
 
       <ContainerItens data-aos="fade-left">
