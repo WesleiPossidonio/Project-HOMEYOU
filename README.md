@@ -1,7 +1,7 @@
 <h1>🏠 Web Site HOMEYOU</h1>
 
 <h1 align="center">
-    <img width="100%" alt="WebSite-Art." src="./src/assets/Project-HomeYou.jpg" />
+    <img width="100%" alt="WebSite-Homeyou" src="./src/Assets/Project-HomeYou.jpg" />
 </h1>
 
 ## 💻 Sobre o projeto
@@ -15,7 +15,7 @@ Esse é um Projetinho foi desenvolvido diante do desafio da comunidade do Iuri, 
 ## 🎨 Layout
 
 <h1 align="center">
-    <img width="100%" alt="Web-Site-HOMEYOU" src="#" />
+    <img width="100%" alt="Web-Site-HOMEYOU" src="https://media.giphy.com/media/XlYyGDntBldcjWRMV6/giphy.gif" />
 </h1>
 ## 🛠 Tecnologias
 
