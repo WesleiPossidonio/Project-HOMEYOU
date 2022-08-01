@@ -9,7 +9,7 @@
 Esse é um Projetinho foi desenvolvido diante do desafio da comunidade do Iuri, onde o mesmo coloca desafios de tempos em tempos no figma para fazermos. 
 
 <h3 align="center">
-    <a href="https://project-homeyou.vercel.app/">Acessar a demonstração</a>
+    <a href="https://web-site-homeyou.netlify.app/">Acessar a demonstração</a>
 <h3 >
 
 ## 🎨 Layout

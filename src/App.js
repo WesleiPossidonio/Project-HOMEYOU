@@ -15,11 +15,11 @@ function App() {
 
   return (
     <>
-      <Header setMenuIsViseble={setMenuIsViseble} />
       <HeaderMobile
         menuIsViseble={menuIsViseble}
         setMenuIsViseble={setMenuIsViseble}
       />
+      <Header setMenuIsViseble={setMenuIsViseble} />
       <SectionHome />
       <SectionDesign />
       <SectionGalery />

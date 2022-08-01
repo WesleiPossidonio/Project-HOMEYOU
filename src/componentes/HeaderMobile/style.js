@@ -18,6 +18,7 @@ export const Container = styled.div`
   pointer-events: none;
   transition: 0.5s;
   transform: translateY(50px);
+  margin-top: -0.5em;
 
   > svg {
     position: absolute;
@@ -46,12 +47,12 @@ export const ContainerLinks = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  gap: 3.5em;
 `
 export const HeaderLink = styled(Link)`
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 22px;
   cursor: pointer;
 
@@ -64,7 +65,7 @@ export const ContainerIcons = styled.div`
   gap: 2em;
 
   > svg {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     cursor: pointer;
   }
