@@ -22,9 +22,9 @@ export const Container = styled.section`
 
 export const ContainerItens = styled.div`
   width: 50%;
-  margin: 5em 5em 0 3em;
+  margin: 5em 3em 0 2em;
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
   }
 `
@@ -35,7 +35,7 @@ export const Title = styled.h1`
   font-size: min(40px, 2.4vw);
 
   color: #272727;
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 768px) {
     font-size: min(40px, 6.5vw);
     margin-top: 3em;
   }
@@ -51,7 +51,7 @@ export const Text = styled.p`
 
   color: #797979;
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 768px) {
     font-size: min(18px, 3.1vw);
   }
 `
@@ -61,7 +61,7 @@ export const ContainerButton = styled.div`
   align-items: center;
   gap: 40px;
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 2em;
   }
 `
@@ -70,7 +70,7 @@ export const Image = styled.img`
   width: min(680px, 50%);
   margin-right: 5em;
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `

@@ -62,25 +62,33 @@ export const Image = styled.img`
 
 export const ContainerItens = styled.div`
   margin-left: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media screen and (max-width: 840px) {
+    align-items: center;
+    margin-right: 6.1em;
+  }
 `
 
 export const ContainerText = styled.div`
   width: 585px;
-  background: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   padding: 20px;
   margin-bottom: 24px;
+  background: #272727;
 
   @media screen and (max-width: 1200px) {
     width: 420px;
   }
 
-  @media screen and (max-width: 840px) {
-    margin-right: 5em;
-  }
-
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 440px) {
     width: 312px;
-    margin-right: 7em;
   }
 `
 

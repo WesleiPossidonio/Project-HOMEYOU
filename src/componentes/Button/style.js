@@ -1,13 +1,13 @@
 import styled, { css } from 'styled-components'
 
 export const ContainerButton = styled.button`
-  width: 225px;
+  width: min(225px, 45vw);
   height: 46px;
   border: none;
 
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: min(18px, 4vw);
   line-height: 22px;
   cursor: pointer;
 
@@ -30,7 +30,7 @@ export const ContainerButton = styled.button`
       color: #272727;
       background: transparent;
       border-bottom: 1px solid #272727;
-      width: auto;
+      width: max-content;
       height: 21px;
 
       &:hover {
@@ -44,6 +44,7 @@ export const ContainerButton = styled.button`
       color: #272727;
       background: transparent;
       border: 1px solid #272727;
+      width: 225px;
 
       &:hover {
         box-shadow: none;
