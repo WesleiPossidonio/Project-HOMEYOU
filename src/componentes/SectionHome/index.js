@@ -28,7 +28,7 @@ export const SectionHome = () => {
           <Button link>Mais sobre nós</Button>
         </ContainerButton>
       </ContainerItens>
-      <Image src={ImageHome} />
+      <Image src={ImageHome} alt="imagem Home" />
     </Container>
   )
 }

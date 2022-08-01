@@ -28,13 +28,24 @@ export const SectionGalery = () => {
       </ContainerText>
 
       <ContainerImage>
-        <Image className="ImgOne" data-aos="zoom-in" src={ImageGaleryOne} />
+        <Image
+          className="ImgOne"
+          data-aos="zoom-in"
+          src={ImageGaleryOne}
+          alt="imagem-de-decorações"
+        />
         <Image
           className="ImgOne"
           data-aos="zoom-in-down"
           src={ImageGaleryThree}
+          alt="imagem-de-decorações"
         />
-        <Image className="ImgOne" data-aos="zoom-in-up" src={ImageGaleryTwo} />
+        <Image
+          className="ImgOne"
+          data-aos="zoom-in-up"
+          src={ImageGaleryTwo}
+          alt="imagem-de-decorações"
+        />
       </ContainerImage>
     </Container>
   )
