@@ -7,21 +7,27 @@ import { RiSearchLine } from 'react-icons/ri'
 
 import { Container, HeaderLink, ContainerLinks, ContainerIcons } from './style'
 
-export const HeaderMobile = ({ menuIsViseble, setMenuIsViseble }) => {
+export const HeaderMobile = ({
+  menuIsViseble,
+  setMenuIsViseble,
+  clickPage,
+  setClickPage
+}) => {
   useEffect(() => {
     document.body.style.overflowY = menuIsViseble ? 'hidden' : 'auto'
-  }, [menuIsViseble])
+    document.body.style.overflowY = clickPage && 'auto'
+  }, [menuIsViseble, clickPage])
   return (
-    <Container isVisible={menuIsViseble}>
+    <Container isVisible={menuIsViseble} menuMobileVisible={clickPage}>
       <IoClose size={35} onClick={() => setMenuIsViseble(false)} />
       <ContainerLinks>
-        <HeaderLink to="Home" spy={true} smooth={true}>
+        <HeaderLink to="Home" spy={true} onClick={() => setClickPage(true)}>
           Inicio
         </HeaderLink>
-        <HeaderLink to="Galery" spy={true} smooth={true}>
+        <HeaderLink to="Galery" spy={true} onClick={() => setClickPage(true)}>
           Galeria
         </HeaderLink>
-        <HeaderLink to="Budget" spy={true} smooth={true}>
+        <HeaderLink to="Budget" spy={true} onClick={() => setClickPage(true)}>
           Contato
         </HeaderLink>
         <ContainerIcons>
@@ -36,5 +42,7 @@ export const HeaderMobile = ({ menuIsViseble, setMenuIsViseble }) => {
 
 HeaderMobile.propTypes = {
   setMenuIsViseble: PropTypes.func,
-  menuIsViseble: PropTypes.bool
+  menuIsViseble: PropTypes.bool,
+  clickPage: PropTypes.bool,
+  setClickPage: PropTypes.func
 }

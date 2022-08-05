@@ -12,14 +12,17 @@ import {
 
 function App() {
   const [menuIsViseble, setMenuIsViseble] = useState(false)
+  const [clickPage, setClickPage] = useState(false)
 
   return (
     <>
       <HeaderMobile
         menuIsViseble={menuIsViseble}
         setMenuIsViseble={setMenuIsViseble}
+        setClickPage={setClickPage}
+        clickPage={clickPage}
       />
-      <Header setMenuIsViseble={setMenuIsViseble} />
+      <Header setMenuIsViseble={setMenuIsViseble} setClickPage={setClickPage} />
       <SectionHome />
       <SectionDesign />
       <SectionGalery />

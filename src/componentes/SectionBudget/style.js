@@ -8,6 +8,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   gap: 17px;
+  margin-left: 7px;
 `
 
 export const Title = styled.h1`

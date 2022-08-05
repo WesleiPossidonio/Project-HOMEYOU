@@ -15,7 +15,7 @@ import {
   ContainerIcons,
   Icon
 } from './style'
-export const Header = ({ setMenuIsViseble }) => {
+export const Header = ({ setMenuIsViseble, setClickPage }) => {
   return (
     <Container>
       <ContainerLogo to="Home" spy={true} smooth={true}>
@@ -42,12 +42,18 @@ export const Header = ({ setMenuIsViseble }) => {
         </ContainerIcons>
       </ContainerLinks>
       <Icon>
-        <HiOutlineMenuAlt3 onClick={() => setMenuIsViseble(true)} />
+        <HiOutlineMenuAlt3
+          onClick={() => {
+            setMenuIsViseble(true)
+            setClickPage(false)
+          }}
+        />
       </Icon>
     </Container>
   )
 }
 
 Header.propTypes = {
-  setMenuIsViseble: PropTypes.func
+  setMenuIsViseble: PropTypes.func,
+  setClickPage: PropTypes.func
 }
